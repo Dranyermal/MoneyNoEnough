@@ -81,40 +81,16 @@ proposal:
     <p class="lead">
     4) Predict future CPI of different item types
     </p>'
+  image:
+    alt: "Showcase keyboard and mouse image"
+    x: "img/showcase/showcase.png"
+    _2x: "img/showcase/showcase@2x.png"
 
 # final
 final:
   enable: true
   title: "Final App"
-  content: '<p class="lead">
-    The Consumer Price Index (CPI) is designed to measure the average price changes 
-    of a fixed basket of consumption goods and services commonly purchased by the 
-    resident households over time. It is widely used as a measure of consumer price 
-    inflation and a proxy for the cost of living in a country.
-    </p>
-    <p class="lead">
-    With the creation of a RShiny app, users will be able to:
-    </p>
-    <p class="lead">
-    1) Explore the changes in Division level (e.g. Food, Transport, Utilities, Housing, Healthcare etc) 
-    CPI of Singapore from 2014 to 2021, including the impact of COVID-19.
-    </p>
-    <p class="lead">
-    2) Visualise the changes in CPI over time for different types of items
-    </p>
-    <p class="lead">
-    3) Analyse the Autocorrelation and Seasonality Effects of CPI at the Division level
-    </p>
-    <p class="lead">
-    4) Predict future CPI of different item types
-    </p>'
-  image:
-    alt: "Showcase keyboard and mouse image"
-    x: "img/showcase/showcase.png"
-    _2x: "img/showcase/showcase@2x.png"
-  imageMobile:
-    alt: "Showcase keyboard and mouse image"
-    x: "img/showcase/showcase-mobile.jpg"
+  content: <iframe height="500" width="100%" frameborder="no" src="https://moneynoenough.shinyapps.io/visual_analytics/"> </iframe>
 
 # contact
 contact:

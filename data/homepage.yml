@@ -49,9 +49,8 @@ introduction:
     </p>'
   image:
     x: "img/images/money.png"
-  imageMobile:
-    alt: "Showcase keyboard and mouse image"
-    x: "img/images/money.png"
+
+
 
 
 
@@ -75,9 +74,7 @@ proposal:
   image:
     alt: "Showcase keyboard and mouse image"
     x: "img/images/proposal.png"
-  imageMobile:
-    alt: "Showcase keyboard and mouse image"
-    x: "img/images/proposal.png"
+
 
 # final
 final:

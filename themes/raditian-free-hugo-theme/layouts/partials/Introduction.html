@@ -20,13 +20,14 @@
       </div>
     </div>
   </div>
-    <div class="rad-introduction__bg rad-introduction__bg--mobile">
-    <img
-      class="lozad img-responsive"
-      src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
-      data-src="{{ .Site.Data.homepage.introduction.imageMobile.x | absURL }}"
-      alt="{{ .Site.Data.homepage.introduction.imageMobile.alt }}"
-    />
-  </div>
+    
+  <div class="row platform-links">
+      <div class="col-12">
+        {{ range .Site.Data.homepage.showcase.socialLinks }}
+        <a href="{{ .URL | absURL }}" target="_blank"
+          ><i class="icon-{{ .icon }}-line"></i
+        ></a>
+        {{ end }}
+      </div>
 </section>
 {{ end }}

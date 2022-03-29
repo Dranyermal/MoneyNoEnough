@@ -10,8 +10,8 @@ params:
       x: img/general/design-and-code-radity.png
   googleTagManagerID: GTM-000000
   logo:
-    text1: Visual
-    text2: Analytics
+    text1: Money No €nough
+    
   plugins:
     css:
       - URL: css/main.css

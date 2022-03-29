@@ -5,8 +5,8 @@ homepage:
 # showcase
 showcase:
   enable: true
-  title: "Hello, We're Money No Enough."
-  subtitle: "A Deep Dive into Singapore’s Shopping Basket"
+  title: "A Deep Dive into Singapore’s Shopping Basket"
+  subtitle: "Melissa Tan | Ranice Tan | Reynard Lam"
   description: "Against the backdrop of the on-going conflict between Russia and Ukraine, rising energy tariffs and pandemic-related impact on global supply chain operations, we would like to provide a more intuitive and insightful way for users to closely study this important barometer of overall economic health."
   image:
     alt: "Showcase keyboard and mouse image"
@@ -15,10 +15,7 @@ showcase:
     alt: "Showcase keyboard and mouse image"
     x: "img/images/cover.png"
 
-  button:
-    icon: "icon-mail-fill"
-    btnText: "Contact"
-    URL: "https://scis.smu.edu.sg/master-it-business"
+
 
  
 # introduction

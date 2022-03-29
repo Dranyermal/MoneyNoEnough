@@ -90,7 +90,7 @@ proposal:
 final:
   enable: true
   title: "Final App"
-  content: <iframe height="500" width="100%" frameborder="no" src="https://moneynoenough.shinyapps.io/visual_analytics/"> </iframe>
+  content: <iframe height="800" width="100%" frameborder="no" src="https://moneynoenough.shinyapps.io/visual_analytics/"> </iframe>
 
 # contact
 contact:

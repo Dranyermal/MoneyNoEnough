@@ -14,7 +14,7 @@ showcase:
     _2x: "img/showcase/showcase@2x.png"
   imageMobile:
     alt: "Showcase keyboard and mouse image"
-    x: "img/showcase/showcase-mobile.jpg"
+    x: "img/images/cover.png"
 
   button:
     icon: "icon-mail-fill"
@@ -50,7 +50,7 @@ introduction:
     </p>'
   image:
     x: "img/images/money.png"
-    _2x: "img/who-am-i/user-picture@2x.png"
+    
 
 
 
@@ -74,7 +74,7 @@ proposal:
   image:
     alt: "Showcase keyboard and mouse image"
     x: "img/images/proposal.png"
-    _2x: "img/showcase/showcase@2x.png"
+    
 
 # final
 final:

@@ -1,0 +1,16 @@
+{{ if .Site.Data.homepage.proposal.enable }}
+<section class="section rad-animation-group pb-0" id="proposal">
+  
+    
+      
+      <div class="col-12 col-sm-12 col-md-15 col-lg-20 col-xl-15">
+        <h2>{{ .Site.Data.homepage.proposal.title }}</h2>
+        <p class="lead">
+          {{ .Site.Data.homepage.proposal.content | safeHTML }}
+        </p>
+        
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}

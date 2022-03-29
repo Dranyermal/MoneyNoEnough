@@ -1,0 +1,142 @@
+# homepage
+homepage:
+  head:
+    title: "Home | Raditian"
+# showcase
+showcase:
+  enable: true
+  title: "Hello, We're Money No Enough."
+  subtitle: "A Deep Dive into Singapore’s Shopping Basket"
+  description: "Against the backdrop of the on-going conflict between Russia and Ukraine, rising energy tariffs and pandemic-related impact on global supply chain operations, we would like to provide a more intuitive and insightful way for users to closely study this important barometer of overall economic health."
+  image:
+    alt: "Showcase keyboard and mouse image"
+    x: "img/showcase/showcase.png"
+    _2x: "img/showcase/showcase@2x.png"
+  imageMobile:
+    alt: "Showcase keyboard and mouse image"
+    x: "img/showcase/showcase-mobile.jpg"
+
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Contact"
+    URL: "https://scis.smu.edu.sg/master-it-business"
+
+ 
+# introduction
+introduction:
+  enable: true
+  title: "Introduction"
+  content: '<p class="lead">
+    The Consumer Price Index (CPI) is designed to measure the average price changes 
+    of a fixed basket of consumption goods and services commonly purchased by the 
+    resident households over time. It is widely used as a measure of consumer price 
+    inflation and a proxy for the cost of living in a country.
+    </p>
+    <p class="lead">
+    With the creation of a RShiny app, users will be able to:
+    </p>
+    <p class="lead">
+    1) Explore the changes in Division level (e.g. Food, Transport, Utilities, Housing, Healthcare etc) 
+    CPI of Singapore from 2014 to 2021, including the impact of COVID-19.
+    </p>
+    <p class="lead">
+    2) Visualise the changes in CPI over time for different types of items
+    </p>
+    <p class="lead">
+    3) Analyse the Autocorrelation and Seasonality Effects of CPI at the Division level
+    </p>
+    <p class="lead">
+    4) Predict future CPI of different item types
+    </p>'
+  image:
+    x: "img/who-am-i/user-picture.png"
+    _2x: "img/who-am-i/user-picture@2x.png"
+
+
+
+# Client & Work
+proposal:
+  enable: true
+  title: "Proposal"
+  
+  content: '<p class="lead">
+    The Consumer Price Index (CPI) is designed to measure the average price changes 
+    of a fixed basket of consumption goods and services commonly purchased by the 
+    resident households over time. It is widely used as a measure of consumer price 
+    inflation and a proxy for the cost of living in a country.
+    </p>
+    <p class="lead">
+    With the creation of a RShiny app, users will be able to:
+    </p>
+    <p class="lead">
+    1) Explore the changes in Division level (e.g. Food, Transport, Utilities, Housing, Healthcare etc) 
+    CPI of Singapore from 2014 to 2021, including the impact of COVID-19.
+    </p>
+    <p class="lead">
+    2) Visualise the changes in CPI over time for different types of items
+    </p>
+    <p class="lead">
+    3) Analyse the Autocorrelation and Seasonality Effects of CPI at the Division level
+    </p>
+    <p class="lead">
+    4) Predict future CPI of different item types
+    </p>'
+
+# final
+final:
+  enable: true
+  title: "Final App"
+  content: '<p class="lead">
+    The Consumer Price Index (CPI) is designed to measure the average price changes 
+    of a fixed basket of consumption goods and services commonly purchased by the 
+    resident households over time. It is widely used as a measure of consumer price 
+    inflation and a proxy for the cost of living in a country.
+    </p>
+    <p class="lead">
+    With the creation of a RShiny app, users will be able to:
+    </p>
+    <p class="lead">
+    1) Explore the changes in Division level (e.g. Food, Transport, Utilities, Housing, Healthcare etc) 
+    CPI of Singapore from 2014 to 2021, including the impact of COVID-19.
+    </p>
+    <p class="lead">
+    2) Visualise the changes in CPI over time for different types of items
+    </p>
+    <p class="lead">
+    3) Analyse the Autocorrelation and Seasonality Effects of CPI at the Division level
+    </p>
+    <p class="lead">
+    4) Predict future CPI of different item types
+    </p>'
+  image:
+    alt: "Showcase keyboard and mouse image"
+    x: "img/showcase/showcase.png"
+    _2x: "img/showcase/showcase@2x.png"
+  imageMobile:
+    alt: "Showcase keyboard and mouse image"
+    x: "img/showcase/showcase-mobile.jpg"
+
+# contact
+contact:
+  enable: true
+  title: "Contact"
+  form:
+    method: "POST"
+    action: "#"
+    full_name: "Full Name"
+    email: "Email Address"
+    message: "Type Your Message Here"
+  phone:
+    title: "Phone Number"
+    number: "+41 (44) 505 10 99"
+  email:
+    title: "Email"
+    email: '<a href="mailto:team@radity.com">team@radity.com</a>'
+  address:
+    title: "Address"
+    address: "Radity GmbH<br />Max-Bill-Platz 5, 8050 Zürich"
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Send Message"
+
+

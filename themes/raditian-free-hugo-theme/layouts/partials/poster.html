@@ -1,33 +1,33 @@
-{{ if .Site.Data.homepage.final.enable }}
-<section class="rad-final rad-final--index rad-animation-group rad-fade-down" id="final">
-  <div class="rad-showcase__bg">
+{{ if .Site.Data.homepage.poster.enable }}
+<section class="rad-poster rad-poster--index rad-animation-group rad-fade-down" id="poster">
+  <div class="rad-poster__bg">
     <img
       class="lozad img-responsive"
       src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
-      data-src="{{ .Site.Data.homepage.final.image.x | absURL }}"
-      data-srcset="{{ .Site.Data.homepage.final.image.x | absURL }} 1x, {{ .Site.Data.homepage.final.image._2x | absURL }} 2x"
-      alt="{{ .Site.Data.homepage.final.image.alt }}"
+      data-src="{{ .Site.Data.homepage.poster.image.x | absURL }}"
+      data-srcset="{{ .Site.Data.homepage.poster.image.x | absURL }} 1x, {{ .Site.Data.homepage.poster.image._2x | absURL }} 2x"
+      alt="{{ .Site.Data.homepage.poster.image.alt }}"
     />
   </div>
   <div class="container">
     <div class="row">
       <div class="col-12 col-sm-12 col-md-18 col-lg-18 col-xl-15">
         <h1 class="display-1">
-          {{ .Site.Data.homepage.final.title }}
+          {{ .Site.Data.homepage.poster.title }}
           <br />
           <span
-            >{{ .Site.Data.homepage.final.subtitle }}</span
+            >{{ .Site.Data.homepage.poster.subtitle }}</span
           >
         </h1>
         <p class="lead">
-          {{ .Site.Data.homepage.final.content | safeHTML }}
+          {{ .Site.Data.homepage.poster.content | safeHTML }}
         </p>
         
       </div>
     </div>
     <div class="row platform-links">
       <div class="col-12">
-        {{ range .Site.Data.homepage.final.socialLinks }}
+        {{ range .Site.Data.homepage.poster.socialLinks }}
         <a href="{{ .URL | absURL }}" target="_blank"
           ><i class="icon-{{ .icon }}-line"></i
         ></a>
@@ -35,12 +35,12 @@
       </div>
     </div>
   </div>
-  <div class="rad-final__bg rad-final__bg--mobile">
+  <div class="rad-poster__bg rad-poster__bg--mobile">
     <img
       class="lozad img-responsive"
       src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
-      data-src="{{ .Site.Data.homepage.final.imageMobile.x | absURL }}"
-      alt="{{ .Site.Data.homepage.final.imageMobile.alt }}"
+      data-src="{{ .Site.Data.homepage.poster.imageMobile.x | absURL }}"
+      alt="{{ .Site.Data.homepage.poster.imageMobile.alt }}"
     />
   </div>
 </section>

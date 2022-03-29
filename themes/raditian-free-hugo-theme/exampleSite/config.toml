@@ -36,15 +36,20 @@ theme = "raditian-free-hugo-theme"
   weight = 3
 
   [[menu.header]]
-  name = "Final App"
+  name = "RShiny App"
   URL = "#final"
   weight = 4
+  
+  [[menu.header]]
+  name = "Artifact"
+  URL = "#poster"
+  weight = 5
 
 
 
 [params]
 
-  sections = ["showcase", "Introduction", "proposal", "final", "contact"]
+  sections = ["showcase", "Introduction", "proposal", "final", "poster"]
 
   googleTagManagerID = "GTM-000000" # Google Analytics works with Google Tag Manager
 

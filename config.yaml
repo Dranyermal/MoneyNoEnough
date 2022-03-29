@@ -26,7 +26,7 @@ params:
     - Introduction
     - proposal
     - final
-    - contact
+    - poster
 
 menu:
   header:
@@ -37,5 +37,8 @@ menu:
       name: Proposal
       weight: 3
     - URL: '#final'
-      name: Final App
+      name: RShiny App
       weight: 4
+    - URL: '#poster'
+      name: Artifact
+      weight: 5

@@ -50,7 +50,9 @@ introduction:
     </p>'
   image:
     x: "img/images/money.png"
-    
+  imageMobile:
+    alt: "Showcase keyboard and mouse image"
+    x: "img/images/money.png"
 
 
 

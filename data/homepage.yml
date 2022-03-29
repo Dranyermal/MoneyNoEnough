@@ -58,28 +58,18 @@ introduction:
 proposal:
   enable: true
   title: "Proposal"
-  
+  description: "The dataset was acquired from <a target='_blank' href='https://www.singstat.gov.sg/find-data/search-by-theme/economy/prices-and-price-indices/latest-data'>Singstat</a>.It contains 8 tabs of data, containing information ranging from average retail prices to Consumer Price Index changes across time. The time period analysed was between 2012 to 2021."
   content: '<p class="lead">
-    The Consumer Price Index (CPI) is designed to measure the average price changes 
-    of a fixed basket of consumption goods and services commonly purchased by the 
-    resident households over time. It is widely used as a measure of consumer price 
-    inflation and a proxy for the cost of living in a country.
+    In order to visualise the changes effectively, a multi-pronged approach was considered, starting with descriptive analysis of the dataset by showing the CPI as well as the price changes for different item divisions. This will be conducted using line charts, box plots, sunburst charts as well as horizon graphs.
     </p>
     <p class="lead">
-    With the creation of a RShiny app, users will be able to:
+    Next, correlation analysis was conducted between different item divisions, in order to glean any insights of any potential correlations between them. Seasonality analysis was also conducted in order to see if certain items experience regular and predicted changes in prices (seasonal) over time.
     </p>
     <p class="lead">
-    1) Explore the changes in Division level (e.g. Food, Transport, Utilities, Housing, Healthcare etc) 
-    CPI of Singapore from 2014 to 2021, including the impact of COVID-19.
+    Lastly, predictive analysis was conducted on the historical data provided, in order to forecast future price changes in different items. This was conducted by employing a plethora of models such as ARIMA, ETS, TSLM and autoregressive models.
     </p>
     <p class="lead">
-    2) Visualise the changes in CPI over time for different types of items
-    </p>
-    <p class="lead">
-    3) Analyse the Autocorrelation and Seasonality Effects of CPI at the Division level
-    </p>
-    <p class="lead">
-    4) Predict future CPI of different item types
+    We hope that through our app, the general public would be able to keep up-to-date on the latest price changes of various items, as well as use our app to forecast future price changes and make better, informed decisions for their future.
     </p>'
   image:
     alt: "Showcase keyboard and mouse image"

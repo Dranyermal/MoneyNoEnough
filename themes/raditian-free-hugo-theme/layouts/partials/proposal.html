@@ -20,8 +20,12 @@
           >
         </h1>
         <p class="lead">
+          {{ .Site.Data.homepage.proposal.description | safeHTML }}
+        </p>
+        <p class="lead">
           {{ .Site.Data.homepage.proposal.content | safeHTML }}
         </p>
+        
         
       </div>
     </div>

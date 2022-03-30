@@ -34,17 +34,17 @@ introduction:
     <p class="lead">
     - Visualise the following: 
     </p>
-    <p class="lead">
+    <p style="margin-left: 40px">
     1) Rate of CPI change of different Divisions over time 
     </p>
-    <p class="lead">
+    <p style="margin-left: 40px">
     2) Changes in average retail prices of food items over time 
     </p>
     <p class="lead">
-    3) Analyse the Autocorrelation and Seasonality Effects of CPI at the Division level 
+    - Analyse the Autocorrelation and Seasonality Effects of CPI at the Division level 
     </p>
     <p class="lead">
-    4) Predict future CPI of different Divisions 
+    - Predict future CPI of different Divisions 
     </p>'
   image:
     x: "img/images/money.png"

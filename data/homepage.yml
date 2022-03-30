@@ -7,7 +7,7 @@ showcase:
   enable: true
   title: "A Deep Dive into Singapore’s Shopping Basket"
   subtitle: "Melissa Tan | Ranice Tan | Reynard Lam"
-  description: "Against the backdrop of the on-going conflict between Russia and Ukraine, rising energy tariffs and pandemic-related impact on global supply chain operations, we would like to provide a more intuitive and insightful way for users to closely study this important barometer of overall economic health."
+  description: "The Consumer Price Index (CPI) is designed to measure the average price changes of a fixed basket of consumption goods and services commonly purchased by the resident households over time. It is an important barometer of overall economic health and is widely used in many countries as a measure of consumer price inflation and a proxy for the cost of living."
   image:
     alt: "Showcase keyboard and mouse image"
     x: "img/images/cover.png"
@@ -23,26 +23,28 @@ introduction:
   enable: true
   title: "Introduction"
   content: '<p class="lead">
-    The Consumer Price Index (CPI) is designed to measure the average price changes 
-    of a fixed basket of consumption goods and services commonly purchased by the 
-    resident households over time. It is widely used as a measure of consumer price 
-    inflation and a proxy for the cost of living in a country.
+    Over the past 2 years, the COVID-19 pandemic has severely affected the global supply and movement of goods; and affected the way people are able to access and consume services. We would like to make use of a range of visualisation techniques and visual analytics to reveal the impact of this unprecedented global crisis on the cost of living in Singapore.
     </p>
     <p class="lead">
     With the creation of a RShiny app, users will be able to:
     </p>
     <p class="lead">
-    1) Explore the changes in Division level (e.g. Food, Transport, Utilities, Housing, Healthcare etc) 
-    CPI of Singapore from 2014 to 2021, including the impact of COVID-19.
+    - Explore the CPI changes in Singapore at the Division level (e.g. Food, Transport, Utilities, Housing, Healthcare) from 2012 to 2021. 
     </p>
     <p class="lead">
-    2) Visualise the changes in CPI over time for different types of items
+    - Visualise the following: 
     </p>
     <p class="lead">
-    3) Analyse the Autocorrelation and Seasonality Effects of CPI at the Division level
+    1) Rate of CPI change of different Divisions over time 
     </p>
     <p class="lead">
-    4) Predict future CPI of different item types
+    2) Changes in average retail prices of food items over time 
+    </p>
+    <p class="lead">
+    3) Analyse the Autocorrelation and Seasonality Effects of CPI at the Division level 
+    </p>
+    <p class="lead">
+    4) Predict future CPI of different Divisions 
     </p>'
   image:
     x: "img/images/money.png"

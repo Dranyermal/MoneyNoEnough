@@ -20,6 +20,9 @@
           >
         </h1>
         <p class="lead">
+          {{ .Site.Data.homepage.final.description | safeHTML }}
+        </p>
+        <p class="lead">
           {{ .Site.Data.homepage.final.content | safeHTML }}
         </p>
         

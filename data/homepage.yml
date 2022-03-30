@@ -80,7 +80,7 @@ final:
   enable: true
   title: "RShiny App"
   description: "If embedded RShiny app does not work as intended, do visit <a target='_blank' href='https://moneynoenough.shinyapps.io/visual_analytics/'>here</a> to view the app directly."
-  content: <iframe height="900" width="100%" frameborder="no" src="https://moneynoenough.shinyapps.io/visual_analytics/"> </iframe>
+  content: <iframe height="1200" width="100%" frameborder="no" src="https://moneynoenough.shinyapps.io/visual_analytics/"> </iframe>
 
 
 poster:

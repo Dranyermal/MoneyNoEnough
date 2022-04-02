@@ -86,8 +86,9 @@ final:
 poster:
   enable: true
   title: "Artifact"
-  content: '<p class="lead">
-   Final Poster goes here
-    </p>'
+  image:
+    alt: "Showcase keyboard and mouse image"
+    x: "img/images/poster.png"
+  
 
 

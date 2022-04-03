@@ -40,5 +40,5 @@ menu:
       name: RShiny App
       weight: 4
     - URL: '#poster'
-      name: Artifact
+      name: Poster
       weight: 5

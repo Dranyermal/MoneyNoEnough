@@ -9,9 +9,9 @@ showcase:
   subtitle: "Melissa Tan | Ranice Tan | Reynard Lam"
   description: "The Consumer Price Index (CPI) is designed to measure the average price changes of a fixed basket of consumption goods and services commonly purchased by the resident households over time. It is an important barometer of overall economic health and is widely used in many countries as a measure of consumer price inflation and a proxy for the cost of living."
   image:
-    x: "img/images/cover.png"
+    x: img/images/cover.png
   imageMobile:
-    x: "img/images/cover.png"
+    x: img/images/cover.png
 
 
 # introduction
@@ -43,7 +43,7 @@ introduction:
     - Predict future CPI of different Divisions 
     </p>'
   image:
-    x: "img/images/money.png"
+    x: img/images/money.png
 
 
 
@@ -70,7 +70,7 @@ proposal:
     Lastly, you may view a more detailed storyboard of our proposal <a href="./Storyboard.pdf" target="blank">here</a>!
     </p>'
   image:
-    x: "img/images/proposal.png"
+    x: img/images/proposal.png
 
 
 # final
@@ -85,7 +85,7 @@ poster:
   enable: true
   title: "Poster"
   image:
-    x: "img/images/poster_small.png"
+    x: img/images/poster_small.png
   
 
 

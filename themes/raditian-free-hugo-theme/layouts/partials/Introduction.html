@@ -29,5 +29,13 @@
         ></a>
         {{ end }}
       </div>
+  <div class="rad-introduction__bg rad-introduction__bg--mobile">
+    <img
+      class="lozad img-responsive"
+      src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
+      data-src="{{ .Site.Data.homepage.introduction.image.x | absURL }}"
+      alt="{{ .Site.Data.homepage.introduction.image.alt }}"
+    />
+  </div>
 </section>
 {{ end }}

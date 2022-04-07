@@ -1,4 +1,4 @@
-baseURL = "https://moneynoenough.netlify.app/"
+baseURL = "//moneynoenough.netlify.app/"
 languageCode = "en-us"
 theme = "raditian-free-hugo-theme"
 

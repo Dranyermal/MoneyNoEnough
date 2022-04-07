@@ -14,8 +14,6 @@ showcase:
     x: "img/images/cover.png"
 
 
-
- 
 # introduction
 introduction:
   enable: true

@@ -3,10 +3,10 @@
   <div class="rad-showcase__bg">
     <img
       class="lozad img-responsive"
-      src="img/images/proposal.png"
+      src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
       data-src="{{ .Site.Data.homepage.proposal.image.x | absURL }}"
       data-srcset="{{ .Site.Data.homepage.proposal.image.x | absURL }} 1x, {{ .Site.Data.homepage.proposal.image._2x | absURL }} 2x"
-      
+      alt="{{ .Site.Data.homepage.proposal.image.alt }}"
     />
   </div>
   <div class="container">
@@ -39,6 +39,13 @@
       </div>
     </div>
   </div>
-  
+  <div class="rad-proposal__bg rad-proposal__bg--mobile">
+    <img
+      class="lozad img-responsive"
+      src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
+      data-src="{{ .Site.Data.homepage.proposal.imageMobile.x | absURL }}"
+      alt="{{ .Site.Data.homepage.proposal.imageMobile.alt }}"
+    />
+  </div>
 </section>
 {{ end }}

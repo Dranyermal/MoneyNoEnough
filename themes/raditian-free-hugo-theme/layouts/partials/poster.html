@@ -17,7 +17,7 @@
         <div class="rad-poster__bg">
     <img
       class="lozad img-responsive"
-      src="img/images/poster_small.png"
+      src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
       data-src="{{ .Site.Data.homepage.poster.image.x | absURL }}"
       data-srcset="{{ .Site.Data.homepage.poster.image.x | absURL }} 1x, {{ .Site.Data.homepage.poster.image._2x | absURL }} 2x"
       alt="{{ .Site.Data.homepage.poster.image.alt }}"
@@ -35,6 +35,13 @@
       </div>
     </div>
   </div>
-  
+  <div class="rad-poster__bg rad-poster__bg--mobile">
+    <img
+      class="lozad img-responsive"
+      src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
+      data-src="{{ .Site.Data.homepage.poster.imageMobile.x | absURL }}"
+      alt="{{ .Site.Data.homepage.poster.imageMobile.alt }}"
+    />
+  </div>
 </section>
 {{ end }}

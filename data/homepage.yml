@@ -10,6 +10,7 @@ showcase:
   description: "The Consumer Price Index (CPI) is designed to measure the average price changes of a fixed basket of consumption goods and services commonly purchased by the resident households over time. It is an important barometer of overall economic health and is widely used in many countries as a measure of consumer price inflation and a proxy for the cost of living."
   image:
     x: img/images/cover.png
+    _2x: img/images/cover.png
   imageMobile:
     x: img/images/cover.png
 
@@ -44,6 +45,7 @@ introduction:
     </p>'
   image:
     x: img/images/money.png
+    _2x: img/images/money.png
   imageMobile:
     x: img/images/money.png
 
@@ -73,6 +75,7 @@ proposal:
     </p>'
   image:
     x: img/images/proposal.png
+    _2x: img/images/proposal.png
   imageMobile:
     x: img/images/proposal.png
 
@@ -89,8 +92,8 @@ poster:
   title: "Poster"
   image:
     x: img/images/poster_small.png
-  imageMobile:
-    x: img/images/poster_small.png
+    _2x: img/images/poster_small.png
+
   
 
 

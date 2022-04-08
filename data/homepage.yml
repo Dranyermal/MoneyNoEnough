@@ -44,6 +44,8 @@ introduction:
     </p>'
   image:
     x: img/images/money.png
+  imageMobile:
+    x: img/images/money.png
 
 
 
@@ -71,7 +73,8 @@ proposal:
     </p>'
   image:
     x: img/images/proposal.png
-
+  imageMobile:
+    x: img/images/proposal.png
 
 # final
 final:
@@ -85,6 +88,8 @@ poster:
   enable: true
   title: "Poster"
   image:
+    x: img/images/poster_small.png
+  imageMobile:
     x: img/images/poster_small.png
   
 

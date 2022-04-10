@@ -89,8 +89,8 @@ poster:
   enable: true
   title: "Poster"
   image:
-    x: img/images/poster_small.png
-    _2x: img/images/poster_small.png
+    x: img/images/poster.png
+    _2x: img/images/poster.png
 
   
 

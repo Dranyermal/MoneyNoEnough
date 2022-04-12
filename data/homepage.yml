@@ -88,6 +88,9 @@ final:
 poster:
   enable: true
   title: "Poster"
+  content: '<p class="lead">
+    You may view our poster below or <a href="./poster.pdf" target="blank">here</a>!
+    </p>'
   image:
     x: img/images/poster.png
     _2x: img/images/poster.png
